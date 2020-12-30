@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee King</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Glyphs Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+    <!-- Materialize Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- custom css -->
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+<section class="fnavbar">
+    <nav class="nav-fixed">
+        <div class="nav-wrapper logo">
+          <a href="#" class="brand-logo">Thousand miles</a>
+          <!-- Slide Menu  -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal()">Home </a></li>
+            <li><a href="#" onclick="toggleModal()">Places</a></li>
+            <li><a href="#" onclick="toggleModal()">About us</a></li>
+            <li><a href="#" onclick="toggleModal()">Contact</a></li>
+          </ul>
+
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#test1">Test 1</a></li>
+            <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+            <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+            <li class="tab"><a href="#test4">Test 4</a></li>
+          </ul>
+        </div>
+ 
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal()">Home </a></li>
+        <li><a href="#" onclick="toggleModal()">About us</a></li>
+        <li><a href="#" onclick="toggleModal()">Coffee</a></li>
+        <li><a href="#" onclick="toggleModal()">Surprise</a></li>
+        <li><a href="#" onclick="toggleModal()">Contact</a></li>
+      </ul>
+    
+</section>
+
+<section class="sdlider">
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="./images/tra5.jpg" alt="">
+                <div class="caption center-align white-text">
+                    <p>Thousand miles</p>
+                    <h4 class="light text-lighten-3">Best Traveller</h4>
+                 </div>
+            </li>
+
+            <li>
+                <img src="./images/tra2.jpg" alt="">
+                <div class="caption center-align white-text">
+                    <p>Thousand miles</p>
+                    <h4 class="light text-lighten-3">Best Traveller</h4>
+                 </div>
+            </li>
+
+            <li>
+                <img src="./images/tra4.jpg" alt="">
+                <div class="caption center-align white-text">
+                    <p>Thousand miles</p>
+                    <h4 class="light text-lighten-3">Best Traveller</h4>
+                 </div>
+            </li>
+
+
+        </ul>
+    </div>
+</section>
+
+<section class="description">
+    <div class="section white center">
+        <h2 class="header">Fun Travelling</h2>
+        <div class="row container center">
+            <div class="col center l8 s12 para-move">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequatur tenetur placeat doloremque voluptatem omnis modi dolorum quo et, ex sapiente ut, velit corporis nihil minus hic nobis optio. Nobis soluta id minima doloribus, aperiam, sunt similique, repellat molestiae itaque mollitia amet. Porro aspernatur nemo totam odio deserunt iusto debitis omnis voluptas sunt, quis eos quidem fugiat eius harum saepe repellat voluptate quaerat ratione quibusdam. Placeat repudiandae commodi alias deleniti dolor nobis perferendis laborum eius, fugiat at assumenda numquam expedita nihil impedit adipisci. Sint dolorem consequuntur sapiente? Rem ipsam officia facilis iure autem quam. Cum quod neque iure doloribus vel.</div>
+            <div class="col center l4 s12 imgmove">
+                <img class="des-image" 
+                src="./images/des1.jpg"
+                style="object-fit: contain;"
+                height="300"
+                width="auto"
+                alt="">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="favcards">
+    <div class="row" style="padding-left: 50px; padding-right: 50px;">
+
+    <!-- 1st card -->
+    <div class="col s12 m12 l4"style = " padding: 50px 5px;">        
+  <div class="row">
+    <div class="col s12 m12">
+      <div class="card">
+        <div class="card-image">
+          <img src="./images/CARD1.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, qui.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+        <!-- 2nd card -->
+    <div class="col s12 m12 l4"style = " padding: 50px 5px;">
+        <div class="row">
+            <div class="col s12 m12">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/CARD2.jpg">
+                  <span class="card-title">Card Title</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, temporibus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- 3rd card -->
+    <div class="col s12 m12 l4"style = " padding: 50px 5px;">
+        <div class="row">
+            <div class="col s12 m12">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/CARD3.jpg">
+                  <span class="card-title">Card Title</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quas?</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+</div>
+</section>
+
+<section class="favparallex">
+  <div class="parallax-container">
+    <div class="parallax"><img src="./images/parallex.jpg"></div>
+  </div>
+</section>
+
+<section class="favservices">
+
+<div class="row" style="padding-left: 50px; padding-right: 50px;">
+  <div class="col s12 l4 center style" style="padding: 50px 50px;"></div>
+</div>
+
+</section>
+
+
+
+<section class="favabout">
+  <div class="section white center">
+    <div class="row container">
+      <h2 class="header">About Us</h2>
+      <p class="grey-text text-darken-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur porro voluptatem quisquam maxime non maiores, quos tempore eveniet, beatae similique dolores facere illo aliquam temporibus corrupti consequuntur accusamus quasi ipsum eius illum animi dolorum doloribus. Quibusdam ipsum modi ad ex nam doloribus, necessitatibus vel quae at facilis totam earum! Perspiciatis commodi aliquam, natus laudantium asperiores voluptates, quis reiciendis tenetur similique, fugit sint! Vero explicabo veritatis nostrum provident laborum distinctio? Aliquam quis nesciunt repellendus veniam. Sit porro quibusdam quod maiores atque aut earum cupiditate doloremque, quasi rem. Ducimus, incidunt officia quidem aperiam ea exercitationem architecto natus necessitatibus in laboriosam quod ut repellendus error, expedita tempore iure quasi reprehenderit. Asperiores quisquam enim sint ad eos doloremque. Aliquam est a suscipit rem sint accusantium beatae commodi minima voluptate modi! Placeat illo labore, repudiandae fugiat iusto cumque tenetur quae doloribus earum corrupti excepturi repellat blanditiis mollitia quos molestias, facere nesciunt distinctio veritatis explicabo? Eos.
+      </p>
+      <a 
+        href="#"
+        style="background-color: rgb(74, 141, 241);"
+        class="btn waves-effect waves-light">
+        Read more</a>           
+  </div>
+</section>
+
+
+</body>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+<!-- Materialize js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- js  -->
+<script src="./js/loader.js"></script>
+
+</html>

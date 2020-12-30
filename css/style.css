@@ -1,0 +1,42 @@
+.nav-wrapper {
+  background-color: rgb(61, 141, 179);
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: rgb(61, 141, 179);
+}
+
+.para-move {
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+
+.des-image {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.parallax-container {
+  min-height: 295px;
+  height: auto;
+}
+
+.icon-coffee {
+  background-color: orangered;
+}
+
+.slides p {
+  font-size: 79px;
+  font-family: "Nerko One", cursive;
+  margin-bottom: 0;
+}
+
+.slides h4 {
+  font-family: "Nerko One", cursive;
+  margin-top: 0;
+}
+
+.logo a {
+  font-family: "Nerko One", cursive;
+  font-family: "Pacifico", cursive;
+}
